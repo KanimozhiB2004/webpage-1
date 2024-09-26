@@ -1,0 +1,211 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    background-image: url(./bgimg.jfif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-position: center;
+}
+#whole{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#logo{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 120px;
+    height: 120px;
+    margin-top: 0;
+    margin-left: 30px;
+}
+#nav{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width:100%;
+    height: 100%;
+}
+#nav>div{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+#nav ul{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: -100px;
+    margin-left: 130px;
+    margin-bottom: 150px;
+}
+ul li{
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type:none;
+    display: inline-block;
+    flex-direction: row;
+    margin: 0;
+    padding: 15px;
+}
+ul li a{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin: 0;
+    text-decoration: none;
+    color: white;
+    
+}
+#navbar{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    font-size: 10px;
+    cursor: pointer;
+}
+ul li a:hover{
+    background-color:white;
+    color: black;
+}
+#homie{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    text-align: center;
+    font-size: 70px;
+    color: white;
+    margin-top: 20px;
+    margin-left: 300px;
+    margin-bottom: 0px;
+    
+}
+#center{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    margin-top: 0px;
+    margin-bottom: 50px;
+    margin-left: 320px;
+}
+.middle{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    text-align: center;
+    background-color: transparent;
+    border: 2px solid white;
+    height: 30px;
+    width: 150px;
+    color: white;
+    margin-bottom: 0;
+    cursor: pointer;
+    margin: 5px;
+    font-size: 15px;
+
+}
+.middle:hover{
+    background-color:white;
+    color: black;
+}
+@media screen and (max-width: 480px){
+    body{
+        background-image: url(./bgimg.jfif);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;    
+    }
+    #whole{
+        width: 100%;
+    }
+    #logo{
+        width: 150px;
+        height: 150px;
+        display: block;
+        margin-left: 120px;
+        margin-top: -30px;
+        flex-direction: row;
+
+    }
+    .fa-solid{
+        margin-top: -10px;
+        margin-right: 5px;
+    }
+
+    #nav{
+        position: relative;
+        margin-top: 70px;
+        margin-left: -100px;
+    }
+    #nav>div{
+        
+        display: block;
+        flex-direction: column;
+    }
+    #nav ul{
+      
+        display: block;
+        text-align: center;
+        
+        justify-content: center;
+        line-height: 0px;
+    }
+    ul li{
+        
+        list-style-type:none;
+        flex-direction: row;
+        text-align: center;
+        width: 100%;
+      
+    }
+    ul li a{
+        flex-direction: row;
+        text-decoration: none;
+        color: white;
+        font-size: 20px;
+        padding: 20px;
+        margin-left: -60px;
+        width: 152%;
+       justify-content: center;
+    }
+    ul li a:hover{
+        background-color:white;
+        color: black;
+        text-align: center;
+        justify-content: center;
+        width: 152%;
+        margin-left: -100px;
+    }
+    .navbar{
+        position: relative;
+        display: block;
+    }
+
+    #homie{
+        text-align: center;
+        justify-content: center;
+        font-size:40px;
+        margin-top: -150px;
+        margin-left: 50px;
+        color: white;
+        
+    }
+    #center{  
+        display: block;
+        margin-top: -50px;
+        margin-left: 100px;
+    }
+    .middle{
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        width: 200px;
+        height: 50px;
+    }
+    .middle:hover{
+        background-color:white;
+        color: black;
+    }
+
+}
